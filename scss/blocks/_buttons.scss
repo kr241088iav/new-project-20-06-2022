@@ -1,0 +1,64 @@
+.btn {
+  min-width: 113px;
+  padding: 13px 15px;
+  background: #d2e1ff;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #3a79ff;
+  border-radius: 2px;
+}
+
+.btn-blue {
+  background: #4c85ff;
+  color: #ffffff;
+  min-width: 130px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 8px solid #fff;
+    border-bottom: 5px solid transparent;
+    transform: translateY(-50%);
+  }
+}
+
+.btn-trasparent {
+  min-width: 130px;
+  background: transparent;
+  border: 1px solid #d1d1e4;
+  color: #adb4d2;
+}
+
+.btn-pink {
+  min-width: 130px;
+  background: #ffd7d7;
+  color: #d43f3f;
+}
+
+.btn-white {
+  background: white;
+}
+
+.btn-subscription {
+  min-width: 174px;
+  background: #4d6ce1;
+  box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 21px 20px;
+}
+
+.btn-recommendation {
+  color: #c7d3ff;
+}
+.btn-grey {
+  background: #e8ecf4;
+  color: #7382a3;
+}

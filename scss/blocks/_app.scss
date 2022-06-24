@@ -1,0 +1,45 @@
+.app {
+  background: #f5f8ff;
+  padding: 170px 0;
+}
+
+.app-wrapper {
+  max-width: 1088px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.app-content {
+  max-width: 413px;
+  width: 100%;
+}
+
+.app-title {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  color: #3d4f9f;
+}
+
+.app-caption {
+  padding-top: 27px;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 36px;
+  color: #3d4f9f;
+}
+
+.app-text {
+  margin-top: 27px;
+}
+.app-img {
+  width: 65%;
+}
+.app-btn-box {
+  display: flex;
+  margin-top: 47px;
+}

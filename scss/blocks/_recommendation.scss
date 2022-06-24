@@ -1,0 +1,27 @@
+.recommendation {
+  padding: 91px 0 92px;
+  background: #6888ff url(/img/recomendetion.svg) center center;
+  text-align: center;
+}
+
+.recommendation-title {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.recomendetion-caption {
+  margin-top: 16px;
+  font-family: "Quicksand";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #ffffff;
+}
+.recommendation-text {
+  margin: 0 auto;
+  max-width: 712px;
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 56px;
+  color: #ffffff;
+}

@@ -1,0 +1,23 @@
+.customers {
+ border-top: 1px solid #d8e3fe;
+ border-bottom: 1px solid #d8e3fe;
+ background: #ffffff;
+ padding: 58px 0;
+}
+
+.customers-wrapper {
+  max-width: 889px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.customers-link {
+  color: #d6dae5;
+  transition: 0.3s;
+  &:hover {
+    color: #5982e7;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  padding: 93px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1110px;
+  width: 100%;
+  gap: 30px;
+}
+
+.footer-copy {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #aeb8d0;
+  margin-left: 100px;
+}

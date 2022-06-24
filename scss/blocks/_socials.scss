@@ -1,0 +1,17 @@
+.socials {
+   max-width: 162px;
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+.socials-link {
+    color: #B6BAC7;
+    transition: 0.3s;
+    &:hover{
+        color:  #6188FF;
+    }
+}
+

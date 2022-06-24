@@ -1,0 +1,120 @@
+.description {
+  background: #fff url(/img/description.svg) center center/contain no-repeat;
+  padding: 171px 0;
+  text-align: center;
+}
+
+.description h3 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4074f8;
+  margin-top: 20px;
+}
+
+.description-wrapper {
+  margin: 0 auto;
+  max-width: 761px;
+  width: 100%;
+  display: flex;
+  margin-top: 92px;
+  gap: 67px;
+  flex-wrap: wrap;
+}
+
+.description-text {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #3d4f9f;
+  margin-top: 20px;
+}
+.description-item {
+  max-width: 140px;
+  width: 100%;
+  position: relative;
+  p {
+    margin-top: 25px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 11px;
+    color: #adb3cb;
+    letter-spacing: 0;
+  }
+}
+.description-item:not(:first-child):before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -35%;
+  width: 28px;
+  height: 1px;
+  background: #dae4fe;
+}
+
+.descriptin-circle {
+  border-radius: 50%;
+  /*   position: relative; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .description-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+} */
+
+.description-item h3 {
+  margin-top: 25px;
+}
+
+.description-item-line {
+  width: 27px;
+  height: 0px;
+  background: #dae4fe;
+  border: 1px solid #dae4fe;
+  list-style: none;
+  margin-top: 117px;
+}
+
+.description-btn-box {
+  display: flex;
+  max-width: 353px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 92px;
+  span {
+    padding: 0 25px;
+    position: relative;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 15px;
+      height: 1px;
+      background: #dae4fe;
+    }
+    &:before {
+      left: 0;
+    }
+    &:after {
+      right: 0;
+    }
+  }
+}
+
+// переделать под after/before
+.description-item-btn-line {
+  width: 15px;
+  height: 1px;
+  background: #dae4fe;
+}

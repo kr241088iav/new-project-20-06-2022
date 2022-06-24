@@ -1,0 +1,21 @@
+.header {
+  padding: 19px 0;
+  width: 100%;
+  background: #fff;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1110px;
+  width: 100%;
+  gap: 30px;
+}

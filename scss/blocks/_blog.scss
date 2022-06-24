@@ -1,0 +1,102 @@
+.blog {
+  padding: 104px 0;
+  background: #f5f8ff;
+  text-align: center;
+}
+
+.blog-caption {
+  margin-top: 20px;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #3d4f9f;
+  margin-bottom: 92px;
+}
+.blog-slider-wrapper {
+  position: relative;
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 23px;
+    height: 15px;
+    position: absolute;
+    background: url(/icon/arrow.svg) center center/cover no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+    transform: translateY(-50%) rotateY(-180deg);
+  }
+  .swiper-button-disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+}
+
+.blog-slider {
+  max-width: 958px;
+  width: 100%;
+  .swiper-wrapper {
+    margin-bottom: 101px;
+  }
+}
+.blog-slide {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /*   flex-wrap: wrap-reverse; */
+  padding: 63px 41px 64px 35px;
+  background: #fff;
+  border: 1px solid #d8e3fe;
+  text-align: left;
+  gap: 30px;
+}
+
+.blog-slide-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: 140px;
+  gap: 14px;
+  width: 100%;
+}
+
+.blog-slide-img {
+  width: 100%;
+  height: 100%;
+  &:nth-child(1) {
+    grid-row: 1/3;
+  }
+}
+
+.blog-slide-information {
+  width: 100%;
+}
+
+.blog-slide-title {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.blog-slide-text {
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 31px;
+}
+
+.blog-slide-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.blog-slide-link {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #a6b6da;
+}

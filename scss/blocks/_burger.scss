@@ -1,0 +1,27 @@
+.burger {
+  width: 26px;
+  display: none;
+  z-index: 100;
+  div {
+    height: 3px;
+    margin-bottom: 5px;
+    background: #8d96bd;
+    transition: 0.5s;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &.active {
+    div {
+      &:nth-child(1) {
+        transform: rotate(45deg) translateY(5px);
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg) translateY(-5px);
+      }
+    }
+  }
+}

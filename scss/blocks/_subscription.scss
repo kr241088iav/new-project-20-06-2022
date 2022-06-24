@@ -1,0 +1,46 @@
+.subscription {
+  padding: 118px 0;
+  border-top: 1px solid #d8e3fe;
+  border-bottom: 1px solid #d8e3fe;
+}
+.subscription-wrapper {
+  max-width: 957px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.subscription-title {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 18px;
+  color: #3d4f9f;
+}
+.subscription-text {
+  margin-top: 18px;
+  font-size: 14px;
+  max-width: 330px;
+  width: 100%;
+}
+
+.subscription-input {
+  max-width: 279px;
+  width: 100%;
+  padding: 21px 20px;
+  border: none;
+  background: #efeff7;
+  border-radius: 5px;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  color: #7a85ad;
+  &::placeholder {
+    font-size: 13px;
+  }
+}
+.subscription-form {
+  display: flex;
+  gap: 14px;
+}

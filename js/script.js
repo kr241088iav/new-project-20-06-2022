@@ -1,18 +1,30 @@
 const burger = document.querySelector(".burger");
 const burgerMenu = document.querySelector(".header-right");
 const menuItems = document.querySelectorAll(".header .menu-link");
+const menuOverlay = document.querySelector(".overlay");
 
 burger.addEventListener("click", function () {
   burger.classList.toggle("active");
   burgerMenu.classList.toggle("active");
+  menuOverlay.classList.toggle("active");
+  document.body.classList.toggle("no-scroll");
 });
 
 for (let item of menuItems) {
   item.addEventListener("click", function () {
     burger.classList.remove("active");
     burgerMenu.classList.remove("active");
+    document.body.classList.remove("no-scroll");
+    menuOverlay.classList.remove("active");
   });
 }
+
+menuOverlay.addEventListener("click", function () {
+  burgerMenu.classList.remove("active");
+  burger.classList.remove("active");
+  menuOverlay.classList.remove("active");
+  document.body.classList.remove("no-scroll");
+});
 
 const heroSlider = new Swiper(".hero-slider", {
   slidesPerView: 1,

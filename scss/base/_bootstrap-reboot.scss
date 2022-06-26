@@ -19,6 +19,9 @@ body {
   letter-spacing: 0.03em;
   color: #8d96bd;
   background-color: #fff;
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 h6,

@@ -49,6 +49,10 @@
     left: 0;
     z-index: 98;
   }
+  .overlay {
+    display: block;
+  }
+
   .header-right {
     z-index: 99;
     flex-direction: column;
